@@ -137,9 +137,9 @@ const selectedRequest = ref(null);
 // --- État pour le filtrage ---
 const selectedStatus = ref();
 const statusOptions = ref([
-    { label: 'En attente', value: 'Pending' },
-    { label: 'Approuvé', value: 'Approved' },
-    { label: 'Rejeté', value: 'Rejected' },
+    { label: 'En attente', value: 'pending' },
+    { label: 'Approuvé', value: 'approved' },
+    { label: 'Rejeté', value: 'rejected' },
 ]);
 
 // --- Initialisation ---
@@ -183,7 +183,7 @@ const showRequestDetails = (requestData) => {
 const getStatusTagSeverity = (status) => {
     switch (status) {
         case 'approved': return 'success';
-        case 'pending': return 'warning';
+        case 'pending': return 'warn';
         case 'rejected': return 'danger';
         default: return 'info';
     }
