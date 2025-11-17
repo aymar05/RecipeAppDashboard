@@ -69,7 +69,7 @@ const submit = async () => {
                                     {{ errors.general }}
                                 </div>
                                 <div class="flex flex-col items-center text-center">
-                                    <h1 class="text-2xl font-bold">Content de te revoir</h1>
+                                    <h1 class="text-2xl font-bold">Heureux de vous revoir</h1>
                                     <p class="text-balance text-muted-foreground">Connectez-vous à votre compte.</p>
                                 </div>
 
